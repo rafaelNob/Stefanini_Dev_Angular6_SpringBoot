@@ -3,7 +3,9 @@ import { CommonModule } from '@angular/common';
 import { TopoComponent} from './topo';
 import { AsideComponent } from './aside';
 import { HomeComponent } from './home';
-import { FooterComponent } from './footer'
+import { FooterComponent } from './footer';
+import { CadastroClienteComponent } from './corpo/cadastro-cliente';
+
 
 @NgModule({
   imports: [
@@ -13,13 +15,15 @@ import { FooterComponent } from './footer'
     TopoComponent,
     AsideComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    CadastroClienteComponent
  
   ],exports:[
     TopoComponent,
     AsideComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    CadastroClienteComponent
     
    
   ]
